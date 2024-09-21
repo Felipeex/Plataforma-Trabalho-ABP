@@ -17,7 +17,7 @@
 .painel {
     position: absolute;
     background-color: antiquewhite;
-    height: 1000px;
+    height: 1050px;
     width: 100%;
     left: 15px;
 }
@@ -221,4 +221,14 @@ li {
     width: 30%;
     border-radius: 10%;
     margin-left: 100px;
+}
+
+.voltar{
+    border-radius: 40%;
+    background-color: white;
+    display: flex;
+    position: relative;
+    top: 15px;
+    left: 20px;
+    width: 50px;
 }
