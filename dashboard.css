@@ -1,0 +1,58 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo img {
+    height: 50px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: #fff;
+}
+
+.nav-links {
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-links li {
+    margin: 0 15px;
+}
+
+.nav-links li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 16px;
+}
+
+.botao img {
+    display: flex;
+    right: 20px;
+    height: auto;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+    
+}
+
+.botao img:hover {
+    transform: scale(1.2);
+}
+.painel {
+    background-color: #F4F4F4;
+}
+
+.painel img {
+    position: relative;
+    display: flex;
+    left: 885px;
+}
+
+.painel div h1 {
+    
+}

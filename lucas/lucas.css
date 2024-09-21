@@ -1,0 +1,224 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.circulo {
+    width: 20px;
+    height: 20px;
+    top: 20px;
+    left: 5%;
+    background-color: lightblue;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.painel {
+    position: absolute;
+    background-color: antiquewhite;
+    height: 1000px;
+    width: 100%;
+    left: 15px;
+}
+.foto-perfil {
+    height: 500px;
+    left: 150px;
+    border-radius: 10%;
+    position: relative;
+    top: 35px;
+    display: flex;
+}
+
+.insta {
+    width: 50px;
+    background-image: url('img/instagram.jpg');
+    background-size: cover;
+    border-radius: 40px;
+    position: absolute;
+    bottom: 800px;
+    display: flex;
+    left: 55px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.insta:hover {
+    transform: scale(1.3);
+}
+
+.linkedin {
+    bottom: 650px;
+    width: 50px;
+    background-image: url('img/linkedin.jpg');
+    position: absolute;
+    border-radius: 15px;
+    left: 55px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.linkedin:hover {
+    transform: scale(1.3);
+}
+
+.github {
+    width: 50px;
+    bottom: 500px;
+    background-image: url('img/github.jpg');
+    position: absolute;
+    left: 55px;
+    cursor: pointer;
+    transition: transform 0.3s ease;
+}
+
+.github:hover {
+    transform: scale(1.3);
+}
+
+.text-image{
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+    width: 800px;
+}
+
+.container {
+    width: 15%;
+}
+
+.menu {
+    display: flex;
+    flex-direction: column;
+}
+
+.nome {
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.title {
+    font-size: 14px;
+    color: gray;
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.nave-menu a {
+    margin-left: 20px;
+    color: #333;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.nave-menu a:hover {
+    text-decoration: underline;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.perfil-header {
+    display: flex;
+    align-items: center;
+}
+
+.info-perfil {
+    text-align: left;
+}
+
+.description {
+    margin-bottom: 50px;
+}
+
+.description h1 {
+    font-size: 36px;
+    font-weight: bold;
+}
+
+.content-container {
+    display: flex;
+    align-items: flex-start;
+    /* justify-content: flex-start; */
+    gap: 120px;
+    padding: 20px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    flex-basis: 200px;
+}
+
+.position-text-image {
+    left: 50%;
+    position: inherit;
+    gap: 20px;
+}
+
+.negrito {
+    font-weight: bold;
+}
+
+.centro {
+    text-align: center;
+}
+
+.imagem-orq {
+    height: 220px;
+    left: 5px;
+    border-radius: 10%;
+    position: relative;
+    top: 35px;
+    display: flex;    
+}
+
+.imagem-orq-tromp {
+    height: 220px;
+    left: 450px;
+    border-radius: 7%;
+    position: relative;
+    top: 100%;
+    display: flex;    
+    margin-top: -180px;
+}
+
+.top2 {
+    margin-left: 50px;
+    width: 40%;
+}
+
+li {
+    margin-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+}
+
+.bloco3 {
+    margin-left: 600px;
+    width: 50%;
+    margin-top: -350px;
+}
+
+.text {
+    font-size: xx-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 18px;
+}
+
+.image-laravel {
+    border-radius: 10%;
+    width: 30%;
+}
+
+.image-php {
+    width: 30%;
+    border-radius: 10%;
+    margin-left: 100px;
+}
