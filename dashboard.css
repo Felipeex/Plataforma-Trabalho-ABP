@@ -14,6 +14,7 @@
   align-items: center;
   padding: 10px 20px;
   background-color: #fff;
+  border-radius: 10px;
 }
 
 .nav-links {
@@ -23,6 +24,10 @@
 
 .nav-links li {
   margin: 0 15px;
+  display: inline-block;
+  padding: 3px 5px;
+  border-radius: 10px;
+  border: 2px solid black;
 }
 
 .nav-links li a {
@@ -44,7 +49,50 @@
 }
 .painel {
   background-color: #f4f4f4;
-
+  float: left;
   display: flex;
   justify-content: space-between;
+}
+
+.painel div img {
+  margin-left: 90px;
+}
+
+.painel-div-texto {
+  font-family: 'Poppins', sans-serif;
+}
+
+.painel-div-texto h2{
+  width: 500px;
+  right: 40px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  font-size: 38px;
+  margin: 100px 150px 15px;
+}
+
+.painel-div-texto p {
+  width: 500px;
+  right: 40px;
+  justify-content: center;
+  display: flex;
+  margin-left: 150px;
+  align-items: center;
+  font-size: 20px;
+}
+
+.cadastrar {
+  background-color: #000;
+  color: #fff;
+  padding: 15px 25px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  margin: 25px 150px;
+}
+
+.cadastrar:hover {
+  background-color: #444;
 }
