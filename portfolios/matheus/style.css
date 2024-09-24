@@ -1,0 +1,233 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    height: 100vh;
+   background-color: #000000;
+}
+
+.interface{
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+header{
+    padding: 40px 4%;
+}
+
+header > .interface{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+header a{
+    color: rgb(48, 8, 168);
+    text-decoration: none;
+    display: inline-block;
+    transition: .2s;
+}
+
+header nav ul{
+    list-style: none;
+}
+
+header nav ul li {
+    display: inline-block;
+    padding: 0 80px;
+}
+
+header .botao button{
+    padding: 10px 20px;
+    font-size: 15px;
+    font-weight: 600;
+    background-color: rgb(48, 8, 168);
+    border: 0;
+    border-radius: 40px;
+    cursor: pointer;
+}
+
+header a:hover{
+    color: rgb(250, 250, 250);
+    transform: scale(1.2);
+}
+
+.logo i{
+   height: 40px;
+   width: 40px;
+   background-color: transparent;
+   border: 1px solid #26d9c4;
+   color: #14bee8;
+   border-radius: 50%;
+   display: inline-flex;
+   align-items: center;
+   justify-content: center;
+   font-size: 13px;
+   cursor: pointer;
+}
+
+.corpo{
+    padding: 150px 0 0 150px;
+}
+
+.texto h3{
+    color: rgb(255, 255, 255);
+    font-size: 20px;
+}
+
+.texto h1{
+    color: rgb(255, 255, 255);
+}
+
+.texto span{
+    color: #3f0aff;
+}
+
+.texto p{
+    color: rgb(255, 255, 255);
+    font-size: 12px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.redes a{
+    color:#3f0aff ;
+    padding: 20px;
+    margin-top: 5px;
+}
+
+.elemento{
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.img{
+    position: absolute;
+    top: -200px;
+    left: 500px;
+    width: 300px;
+    height: auto;
+}
+  
+.sobre {
+    background-color: transparent;
+    font-size: 38px;
+    text-align: center;
+    
+}
+.s{
+    color: #fff;
+}
+.mim{
+    color: rgb(0, 0, 255);
+}
+.text{
+    color: #fff;
+    font-family: helvetica;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+
+}
+.fipp{
+    color: rgb(21, 0, 255);
+}
+.dec{
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.esp{
+    background-color: transparent;
+    font-size: 38px;
+    text-align: center;
+}
+.text2{
+    color: #fff;
+    font-family: helvetica;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.dec2{
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+button{
+    color: #fff;
+}
+
+.behance{
+    color: #000dff;
+}
+
+.hobbies{
+    background-color: transparent;
+    font-size: 38px;
+    text-align: center;
+}
+
+.text3{
+    color: #fff;
+    font-family: helvetica;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.dec3{
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+.hb{
+    color: #fff;
+}
+
+.cttt{
+    background-color: transparent;
+    font-size: 38px;
+    text-align: center;
+}
+
+.text4{
+    color: #fff;
+    font-family: helvetica;
+    font-size: 28px;
+    font-weight: 600;
+    text-align: center;
+}
+
+.dec3{
+    background-color: transparent;
+    padding: 10px 20px;
+    border-radius: 30px;
+}
+
+
+.asd{
+    width: 50%;
+    height: 100px;
+}
+
+.send{
+    background-color: #000dff;
+    padding: 0.3rem;
+    font: inherit;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: .2s;
+    left: 400px;
+}
