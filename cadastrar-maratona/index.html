@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Cadastro de Equipe - CodeRun</title>
+    <link
+      rel="shortcut icon"
+      href="../_assets/favicon.ico"
+      type="image/x-icon"
+    />
+
+    <!-- Inter Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+    <link rel="stylesheet" href="../index.css" />
+    <link rel="stylesheet" href="./form.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <a href="../../index.html">
+        <div class="logo">
+          <img src="../../assets/logo.png" alt="Logo" />
+        </div>
+      </a>
+      <ul class="nav-links">
+        <a href="../portfolios/andrey/index.html"><li>Andrey</li></a>
+        <a href="../portfolios/bryan/portifolio.html"><li>Bryan</li></a>
+        <a href="https://felipeex.github.io"><li>Felipe</li></a>
+        <a href="../portfolios/lucas/portifolioLucas.html"><li>Lucas</li></a>
+        <a href="../portfolios/matheus/index.html"><li>Matheus</li></a>
+        <a href="../portfolios/gabriel/portfolio.html"><li>Gabriel</li></a>
+      </ul>
+    </nav>
+
+    <form class="container">
+      <h1>Cadastrar Equipe</h1>
+      <div class="hr"></div>
+
+      <div class="inputs">
+        <div class="input">
+          <label for="name">Nome</label>
+          <input type="text" id="name" placeholder="Unoeste" />
+        </div>
+
+        <div class="input">
+          <label for="ddd">Telefone</label>
+          <input type="text" name="ddd" id="ddd" placeholder="(18) 0000-0000" />
+        </div>
+
+        <div class="input">
+          <label for="email">Email</label>
+          <input
+            type="email"
+            name="email"
+            id="email"
+            placeholder="exemplo@gmail.com"
+          />
+        </div>
+      </div>
+
+      <div class="input">
+        <label for="estado">Estado</label>
+        <input type="text" id="estado" placeholder="São Paulo" />
+      </div>
+
+      <div class="input">
+        <label for="cidade">Cidade</label>
+        <input type="text" id="ciade" placeholder="Presidente Prudente" />
+      </div>
+
+      <div class="input">
+        <label for="universidade">Universidade</label>
+        <input type="text" id="universidade" placeholder="Unoeste" />
+      </div>
+
+      <div class="input">
+        <label for="link">Redes Sociais</label>
+        <input
+          type="url"
+          name="link"
+          id="link"
+          placeholder="https://instagram.com/unoeste"
+        />
+      </div>
+      <button>Cadastrar</button>
+    </form>
+  </body>
+</html>
