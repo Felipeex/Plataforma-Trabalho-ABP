@@ -122,13 +122,19 @@
 }
 
 .titulo-sub-painel .maratonas {
+  margin: 0 200px;
+
   margin-top: 60px;
 
   display: flex;
   align-items: center;
   justify-content: center;
 
+  flex-wrap: wrap;
+
   gap: 24px;
+
+  margin-bottom: 50px;
 }
 
 .titulo-sub-painel .maratona {
@@ -157,14 +163,4 @@
   text-align: start;
 
   color: #606060;
-}
-
-.all-maratonas {
-  background: #f8f8f8;
-
-  text-align: center;
-}
-
-.all-maratonas > h2 {
-  padding-top: 48px;
 }
