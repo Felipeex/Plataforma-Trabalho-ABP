@@ -1,0 +1,14 @@
+* {
+    margin: 30px;
+    background-color: #edcaea;
+}
+
+.div-principal {
+    margin-top: 10px;
+    background-color: #f4f4f4;
+}
+
+.div-image {
+    margin-left: 90px;
+    display: flex;
+}
