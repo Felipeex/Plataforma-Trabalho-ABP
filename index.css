@@ -164,3 +164,21 @@
 
   color: #606060;
 }
+<<<<<<< Updated upstream
+=======
+
+.all-maratonas {
+  background: #f8f8f8;
+
+  text-align: center;
+}
+
+.all-maratonas > h2 {
+  padding-top: 48px;
+}
+
+.maratona-fem {
+  width: 368px;
+  height: 234px;
+}
+>>>>>>> Stashed changes
